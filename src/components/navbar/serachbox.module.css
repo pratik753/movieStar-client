@@ -1,0 +1,99 @@
+.centercol {
+    margin-top: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centercss {
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+.inputcss {
+    width: 20rem;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: black;
+    background: #9ed8ef;
+    background-image: url('https://moviesmeet.in/wp-content/uploads/2021/08/sicon.png');
+    background-position: 10px 13px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    background-size: 25px 25px;
+    background-position-x: 11px;
+    background-position-y: 10px;
+}
+
+.imgpic {
+    /* margin: auto; */
+    margin: 0.5rem;
+    border-radius: 1rem;
+}
+
+.searchBtn {
+    background: #9ed8ef;
+    padding: .7rem;
+    border-radius: 9px;
+    margin-left: 2px;
+    /* background-image: url('https://moviesmeet.in/wp-content/uploads/2021/08/sicon.png'); */
+    /* padding: 12px 20px 12px 40px; */
+}
+
+::placeholder {
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+}
+
+.btn1 {
+    background-color: #329729;
+    font-size: .9rem;
+    font-weight: bold;
+    padding: 0.8rem;
+    margin: 0.8rem;
+    border-radius: 1rem;
+}
+
+.btn2 {
+    background-color: #64116b;
+    font-size: .9rem;
+    font-weight: bold;
+    padding: 0.8rem;
+    margin: 0.8rem;
+    border-radius: 1rem;
+}
+
+.btn3 {
+    background-color: #dda11f;
+    font-size: .9rem;
+    font-weight: bold;
+    padding: 0.8rem;
+    margin: 0.8rem;
+    border-radius: 1rem;
+}
+
+.inputcss:focus {
+    width: 35rem;
+}
+
+@media screen and (max-width: 1235px) {
+    .centercss {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+}
+
+@media screen and (max-width: 735px) {
+    .centercss {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .inputcss:focus {
+        width: 22rem;
+    }
+}

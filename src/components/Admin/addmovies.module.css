@@ -1,0 +1,22 @@
+.homecont {
+    border: 2px solid black;
+    border-radius: 2rem;
+    background-color: rgb(154, 200, 226);
+}
+
+.coldiv {
+    display: flex;
+    /* width: 100%; */
+    flex-wrap: wrap;
+}
+
+.col2 {
+    margin-top: 1rem;
+    /* display: flex; */
+    /* width: 50%; */
+    /* flex-wrap: wrap; */
+}
+
+.cont {
+    background-color: rgb(252, 252, 252);
+}

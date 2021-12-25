@@ -1,0 +1,75 @@
+.details {
+    margin-top: 2rem;
+}
+
+.details1 {
+    margin-top: 2rem;
+    color: #f0dd3d;
+}
+
+.col2 {
+    margin-top: 1rem;
+}
+
+.contmovie {
+    background-color: rgb(146, 142, 142);
+    border-radius: 1.5rem;
+    width: 95%;
+    margin: 0;
+    margin-top: 0px;
+    margin-top: .5rem;
+}
+
+.movieinfo {
+    color: rgb(136, 226, 136);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.moviename {
+    font-size: 1.3;
+    font-weight: bold;
+    color: white;
+}
+
+.qstory {
+    color: rgb(209, 66, 66);
+    font-weight: 800;
+}
+
+.lines {
+    font-size: 1.2rem;
+}
+
+.imgp img {
+    height: 20rem;
+    max-width: 75%;
+    margin: .5rem;
+}
+
+.bottomtitle {
+    color: greenyellow;
+}
+
+.btn2 {
+    background-color: #b154b9;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1.5rem;
+    color: white;
+}
+
+.cendiv {
+    margin-bottom: 2.5rem;
+}
+
+.uploadby {
+    color: white;
+    font-weight: bold;
+}
+
+.imdb {
+    color: rgb(255, 255, 255);
+}

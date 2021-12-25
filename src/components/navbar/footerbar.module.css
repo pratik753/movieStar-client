@@ -1,0 +1,12 @@
+.footerdiv {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+    background-color: rgb(68, 66, 66);
+}
+
+.footerdiv p {
+    color: aliceblue;
+}

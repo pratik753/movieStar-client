@@ -1,0 +1,45 @@
+.homecont {
+    /* border: 2px solid black; */
+    /* border-radius: 2rem; */
+    /* background-color: rgb(154, 200, 226); */
+}
+
+.coldiv {
+    display: flex;
+    /* width: 100%; */
+    padding-top: .5rem;
+    padding-bottom: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid black;
+    border-radius: 2rem;
+    background-color: rgb(154, 200, 226);
+    margin: 1rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.pagDiv {
+    display: flex;
+    margin-left: 2rem;
+}
+
+.col2 {
+    margin-top: 1rem;
+    /* display: flex; */
+    /* width: 50%; */
+    /* flex-wrap: wrap; */
+}
+
+.messageDiv {
+    height: 20rem;
+    overflow-y: scroll;
+    margin-right: 2rem;
+}
+
+@media screen and (max-width: 1235px) {
+    .coldiv {
+        margin: .1rem;
+        margin-top: .7rem;
+    }
+}
