@@ -1,6 +1,7 @@
 import axios from "axios";
-const url = "http://localhost:4000/";
+// const url = "http://localhost:4000/";
 // const url = "https://movie-star-movie.herokuapp.com/";
+const url = "https://moviestar-star.herokuapp.com/";
 export const createMovie = (data) => axios.post(`${url}movie/postData`, data);
 export const getMovie = (page, limit) =>
   axios.get(`${url}movie/getMovie?page=${page}&limit=${limit}`);
