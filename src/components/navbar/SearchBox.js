@@ -6,6 +6,7 @@ import Button from "react-bootstrap/Button";
 import classes from "./serachbox.module.css";
 import { useHistory } from "react-router-dom";
 import Search from "@material-ui/icons/Search";
+import { getSearchMovie } from "../../action/movie";
 const SearchBox = (props) => {
   const history = useHistory();
   const [text, setText] = useState("");
@@ -15,10 +16,13 @@ const SearchBox = (props) => {
   };
   const searchHandler = (e) => {
     setText(e.target.value);
+    console.log(e.target.value, "onchange");
+    getSearchMovie(text);
   };
   const searchSubmitHandler = (e) => {
     e.preventDefault();
     props.setSearchText(text);
+    getSearchMovie(text);
     setText("");
     console.log(text);
   };

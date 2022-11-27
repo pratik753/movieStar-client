@@ -1,10 +1,10 @@
 import axios from "axios";
-// const url = "http://localhost:4000/";
+const url = "http://localhost:4000/";
 // const url = "https://movie-star-movie.herokuapp.com/";
-const url = "https://moviestar-star.herokuapp.com/";
-export const createMovie = (data) => axios.post(`${url}movie/postData`, data);
+// const url = "https://moviestar-star.herokuapp.com/";
+export const createMovie = (data) => axios.post(`${url}movie/postData`, data); //post
 export const getMovie = (page, limit) =>
-  axios.get(`${url}movie/getMovie?page=${page}&limit=${limit}`);
+  axios.get(`${url}movie/getMovie?page=${page}&limit=${limit}`); // get
 export const getMovieDetail = (id) => axios.get(`${url}movie/${id}`);
 export const getSearchMovie = (text) =>
   axios.get(`${url}movie/searchMovie/${text}`);
@@ -19,7 +19,7 @@ export const createMessage = (data) =>
 export const getMessage = (tagMessge) =>
   axios.get(`${url}message/getMessage/${tagMessge}`);
 
-export const deleteMessage = (id) => axios.delete(`${url}message/${id}`);
+export const deleteMessage = (id) => axios.delete(`${url}message/${id}`); // delete
 
 export const getIpAddress = async () => {
   const res = await axios.get("https://geolocation-db.com/json/");

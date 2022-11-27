@@ -37,12 +37,12 @@ const Home = (props) => {
       if (props.searchText.length > 0) {
         console.log("hiiiiiiiiii");
         d = await getSearchMovie(props.searchText);
-        resData = d.data.data;
-        console.log(d.data.data);
+        resData = d?.data.data;
+        console.log(d?.data.data);
       } else {
         d = await getMovies(+page, +limit);
-        resData = d.data;
-        console.log(d.data);
+        resData = d?.data;
+        console.log(d?.data);
       }
       const mdata = [];
       for (const key in resData) {
@@ -57,7 +57,7 @@ const Home = (props) => {
       setIsLoading(false);
 
       console.log(mdata);
-      console.log(d.pageNo);
+      // console.log(d.pageNo);
       console.log("current " + page);
       // setTcount(d.count);
       setPageNo(Math.ceil(+d.count / +limit));
