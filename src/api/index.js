@@ -1,5 +1,6 @@
 import axios from "axios";
-const url = "http://localhost:4000/";
+const url = "https://movieserver-6nsq.onrender.com/";
+// const url = "http://localhost:4000/";
 // const url = "https://movie-star-movie.herokuapp.com/";
 // const url = "https://moviestar-star.herokuapp.com/";
 export const createMovie = (data) => axios.post(`${url}movie/postData`, data); //post
